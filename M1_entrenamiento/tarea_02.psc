@@ -1,10 +1,12 @@
 Proceso Tare_02
-	Definir a,b,c Como Entero;
-	a <- 5;
-	b <- 3;
-	c <- 8;
-	a <- (a*b)-c;
-	b <- (b*b)-c;
-	Escribir "lo que Algebrin recibió fue: ", a, " monedas de oro";
-	Escribir "lo que Dividin recibió fue: ", b, " moneda de oro";
+	Definir a,b,c,x,p,m,n Como Entero;
+	a <- 24;
+	x <- 8;
+	p <- a/x;
+	b <- 5*p;
+	c <- 3*p;
+	m <- b-8;
+	n <- c-8;
+	Escribir "lo que Algebrin recibió fue: ", m, " monedas de oro";
+	Escribir "lo que Dividin recibió fue: ", n, " moneda de oro";
 FinProceso
