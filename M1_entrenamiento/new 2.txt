@@ -30,3 +30,17 @@ public static void main(String[] args) {
 	System.out.println("El promedio de: "+num1+" entre "+num2+" es igual a : "+res4);
 }
 }
+
++|----------------------------------+
++ Autor:  Miguel Alberto Castro     +
++ Fecha:  01 / 11 / 2020            +
++-----------------------------------+
+
+Inserte un primer numero:
+6
+Inserte un segundo numero:
+3
+La suma de: 6.0 + 3.0 es igual a: 9.0
+La resta de: 6.0 - 3.0 es igual a : 3.0
+La multiplicacion de: 6.0 * 3.0 es igual a: 18.0
+El promedio de: 6.0 entre 3.0 es igual a : 4.5

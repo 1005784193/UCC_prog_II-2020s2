@@ -37,3 +37,17 @@ public static void main(String[] args) {
 	System.out.println("El promedio del estudiante:"+name+" es: "+res4);
 }
 }
++|----------------------------------+
++ Autor:  Miguel Alberto Castro     +
++ Fecha:  01 / 11 / 2020            +
++-----------------------------------+
+
+Ingrese el nombre del estudiante:
+Isabel
+Inserte una primer nota:
+5
+Inserte una segunda nota:
+3
+Inserte una tercera nota:
+4,5
+El promedio del estudiante:Isabel es: 4.2

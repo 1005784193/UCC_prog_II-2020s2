@@ -54,3 +54,33 @@ public class miguel8 {
 
 	}
 }
++|----------------------------------+
++ Autor:  Miguel Alberto Castro     +
++ Fecha:  01 / 11 / 2020            +
++-----------------------------------+
+
+Ingrese el nombre del empleado:
+Miguel
+Inserte el valor de hora:
+25000
+Inserte las horas trabajadas:
+9
+Nombre del empleado: Miguel
+Valor de hora: 33000
+Horas trabajadas: 9
+Salario: 297000
++|----------------------------------+
++ Autor:  Miguel Alberto Castro     +
++ Fecha:  01 / 11 / 2020            +
++-----------------------------------+
+
+Ingrese el nombre del empleado:
+k
+Inserte el valor de hora:
+20000
+Inserte las horas trabajadas:
+4
+Nombre del empleado: k
+Valor de hora: 17600
+Horas trabajadas: 4
+Salario: 70400
