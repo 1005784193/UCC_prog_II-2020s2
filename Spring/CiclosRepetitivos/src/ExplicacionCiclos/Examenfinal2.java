@@ -1,0 +1,34 @@
+package ExplicacionCiclos;
+import java.util.Scanner;
+
+public class Examenfinal2 {
+	private static Scanner sc;
+	public static void main(String[] args) {
+		System.out.println("+|----------------------------------+");
+		System.out.println("+ Autor:  Miguel Alberto Castro     +");
+		System.out.println("+ Fecha:  16 / 11 / 2020            +");
+		System.out.println("+-----------------------------------+");
+		System.out.println();
+		long numero = 0;
+		long falta,numeroInvertido,resto;
+		String imput = ""; 
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Inserte un  numero con mas de un digito:");
+		imput = scan.next();
+		numero= Integer.parseInt(imput);
+		while(numero<=0);
+		  falta=numero;
+		  numeroInvertido=0;
+		  resto=0;
+		  while(falta!=0)
+		  {
+		   resto=falta%10;
+		   numeroInvertido=numeroInvertido*10+resto;
+		   falta=falta/10;
+		  }
+		  if(numeroInvertido==numero)
+		  System.out.println("\nEl numero es capicua\n");
+		 else
+		  System.out.println("\nEl numero no es capicua\n");
+	}
+}
