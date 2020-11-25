@@ -1,0 +1,39 @@
+package co.edu.campusucc;
+import java.util.Scanner;
+
+public class miguel3 {
+public static void main(String[] args) {
+	System.out.println("+|----------------------------------+");
+	System.out.println("+ Autor:  Miguel Alberto Castro     +");
+	System.out.println("+ Fecha:  01 / 11 / 2020            +");
+	System.out.println("+-----------------------------------+");
+	System.out.println();
+	float num1 = 0;
+	float num2 = 0;
+	float num3 = 0;
+	String name = "";
+	float imput = 0;
+	float input = 0;
+	float imput1 = 0;
+	String imput2 = "";
+	Scanner reader = new Scanner(System.in);
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Ingrese el nombre del estudiante:");
+	imput2 = scan.next();
+	name = String.valueOf(imput2);
+	System.out.println("Inserte una primer nota:");
+	imput = reader.nextFloat();
+	num1= imput;
+	System.out.println("Inserte una segunda nota:");
+	input = reader.nextFloat();
+	num2= input;
+	System.out.println("Inserte una tercera nota:");
+	imput1 = reader.nextFloat();
+	num3= imput1;
+	float res1 = (num1 * 30)/100;
+	float res2 = (num2*30)/100;
+	float res3 = (num3*40)/100;
+	float res4 = res1+res2+res3;
+	System.out.println("El promedio del estudiante:"+name+" es: "+res4);
+}
+}
